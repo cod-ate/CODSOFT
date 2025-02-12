@@ -58,7 +58,6 @@ class Task_1
                 else
                     System.out.println("Too low!!");
 
-                call1= settingRange(o, t);
                 System.out.print("Guess again: ");
                 guess= sc.nextInt();
             }
@@ -68,6 +67,7 @@ class Task_1
         if(rounds==0)
         {
             System.out.println("You lose.. Score: "+rounds);
+            System.out.println("Correct answer was: "+call1);
             System.out.println("    Game Over!!    ");
         }
         else
